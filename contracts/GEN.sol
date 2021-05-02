@@ -351,7 +351,7 @@ contract GEN is Context, IBEP20, Ownable {
   constructor(uint256 initialSupply) public {
     _name = "Genie";
     _symbol = "GEN";
-    _decimals = 8;
+    _decimals = 18;
     _totalSupply = initialSupply;
     _balances[msg.sender] = _totalSupply;
 
